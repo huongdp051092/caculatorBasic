@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculator Extension</title>
+    <link rel="stylesheet" href="caculator-extension.css"/>
+</head>
+<body>
+    <div class="khung">
+        <input id="display" class="display">
+        <button class="button" value="(" onclick="display(this.value)" type="button">(</button>
+        <button class="button" value=")" onclick="display(this.value)" type="button">)</button>
+        <button class="button" value="%" onclick="display(this.value)" type="button">%</button>
+        <button class="button" value="AC" onclick="AC(this.value)" type="button">AC</button>
+        <button class="button" value="7" onclick="display(this.value)" type="button">7</button>
+        <button class="button" value="8" onclick="display(this.value)" type="button">8</button>
+        <button class="button" value="9" onclick="display(this.value)" type="button">9</button>
+        <button class="button" value="/" onclick="display(this.value)" type="button">/</button>
+        <button class="button" value="4" onclick="display(this.value)" type="button">4</button>
+        <button class="button" value="5" onclick="display(this.value)" type="button">5</button>
+        <button class="button" value="6" onclick="display(this.value)" type="button">6</button>
+        <button class="button" value="*" onclick="display(this.value)" type="button">*</button>
+        <button class="button" value="1" onclick="display(this.value)" type="button">1</button>
+        <button class="button" value="2" onclick="display(this.value)" type="button">2</button>
+        <button class="button" value="3" onclick="display(this.value)" type="button">3</button>
+        <button class="button" value="-" onclick="display(this.value)" type="button">-</button>
+        <button class="button" value="0" onclick="display(this.value)" type="button">0</button>
+        <button class="button" value="." onclick="display(this.value)" type="button">.</button>
+        <button class="button" value="=" onclick="result(this.value)" type="button">=</button>
+        <button class="button" value="+" onclick="display(this.value)" type="button">+</button>
+    </div>
+    <script type="text/javascript" src="caculator-extension.js"></script>
+</body>
+</html>
